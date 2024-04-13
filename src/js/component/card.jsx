@@ -3,7 +3,7 @@ import Rigo from "./../../img/rigo-baby.jpg";
 
 const Card = () => {
   return (
-      <div className="card col-12 col-xl-3 my-2" style={{ width: "20rem" }}>
+      <div className="card col-12 col-xl-3 my-2 p-3" style={{ width: "20rem" }}>
         <img src= {Rigo} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
